@@ -1,5 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import TextComponent1 from '../components/TextComponent1'
+import OrganizationComponent from '../components/OrganizationComponent'
+import ContributorComponent from '../components/ContributorComponent'
 export default function Home() {
   return (
     <div>
@@ -7,6 +10,10 @@ export default function Home() {
         <img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-Horizontal.png" alt="" width={500}/>
       </div>
       <Navbar/>
+      <TextComponent1/>
+      <OrganizationComponent/>
+      <ContributorComponent/>
+
     </div>
   )
 }

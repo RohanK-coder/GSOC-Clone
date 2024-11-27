@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Navbar() {
-    const navItems = [{name:"Home",href:"/"},{name:"Organization",href:"/orgpage"},{name:"Contributor",href:"/"}];
+    const navItems = [{name:"Home",href:"/"},{name:"Organization",href:"/orgpage"},{name:"Contributor",href:"/conpage"}];
   return (
     <div className='navbar'>
       <ul className='flex align-center justify-center gap-20 '>
